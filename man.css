@@ -1,0 +1,173 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+body{
+    background: black;
+    margin-top: 20px;
+}
+.max-width{
+    max-width: 1300px;
+    padding: 0 80px;
+    margin: auto;
+    
+}
+.navbar{
+    position: fixed;
+    width: 100%;
+    text-align: center;
+    margin-top: 110px;
+}
+.navbar .menu li{
+    list-style: none;
+    display: inline-block;
+    
+}
+.navbar .menu li a{
+    color: gray;
+    font-weight: 500; /*pour equilibrer*/
+    font-size: 15px;
+    margin-left: 14px;
+    
+}
+.navbar .menu li a:hover{
+    color: white;
+    
+}
+.navbar .max-width{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    
+}
+
+.logo a span{
+    color: white;
+    background-color: black;
+    border-radius: 25px;
+    margin-left: 55px;
+    
+}
+.logo span{
+    font-size: 15px;
+    
+}
+.en a{
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 10px;
+   
+}
+.en a span{
+    color: gray;
+   
+}
+.home{
+    display: flex;
+    background: url("man4.jpeg") no-repeat center;
+    height: 100vh;
+    margin-left: 15%;
+    margin-right: 15%;
+}
+.home .max-width{
+    margin: 30px   30px;
+    margin-top: 30%;
+}
+.home .home-content .text-4{
+    margin-top: -45%;
+    font-family: cyrene;
+}
+
+.home .home-content .text-1{
+    margin-top: -17px;
+    text-align: justify;
+    margin-left: 50px;
+    font-size: 35px;
+    color: white;
+    
+}
+.home .home-content .text-2{
+    text-align: justify;
+    font-size: 35px;
+    color: white;
+    margin-left: 24%;
+}
+.home .home-content .text-3{
+    text-align: justify;
+    font-size: 35px;
+    margin-left: 50px;
+    color: white;
+}
+.home .home-content .text{
+    color: rgb(179, 175, 175);
+    font-size: 10px;
+    margin-left: 50px;
+    margin-top: 22px;
+}
+
+
+/*.bouton{
+    margin-left: 125%;
+    margin-top: -5%;
+    
+}
+.bouton a{
+    display: inline-block;
+    background: orange;
+    color: white;
+    font-size: 15px;
+    border-radius: 20%;
+}
+*/
+.bouton{
+    text-align: right;
+    margin-top: -15%;
+    margin-left: 125%;
+}
+.bouton a{
+    color: white;
+}
+.order{
+    margin-left: 131%;
+    margin-top: -69px;
+}
+.home .home-content .order a{
+    color: white;
+}
+.home .home-content .order a:hover{
+    color: black;
+}
+.reseau-social .whatsap img{
+    text-align: center;
+    margin-left: 0px;
+    background-color: white;
+    margin-top: -30%;
+    border-radius: 50%;
+
+}
+.home .home-content .vl{
+    margin-top: -27%;
+    margin-left: 10px;
+}
+.vl {
+    border-left: 3px solid gray;
+    height: 90px;
+    margin-top: -30px;
+  }
+.K{
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 10px;
+    margin-top: 10px;
+}
+
+.fleche{
+    position: absolute;
+    width: 100px;
+    right: 340px;
+    top: 480px;
+
+}
+
